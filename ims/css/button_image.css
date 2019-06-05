@@ -1,0 +1,71 @@
+div.separator{
+  position: absolute;
+  font-size: 20px;
+  color: #989898;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.5s;
+  right: 63px;
+  top: -2px;
+}
+
+div.delete {
+  position: absolute;
+  font-size: 22px;
+  color: #989898;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.5s;
+  right: 5px;
+  opacity: 0.6;
+  top:5px;
+}
+div.edit {
+  position: absolute;
+  font-size: 22px;
+  color: #989898;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.5s;
+  left: 5px;
+  opacity: 0.6;
+  top:5px;
+}
+
+.btn-container {
+  margin: 2px 0 0 155px;
+}
+.box {
+  position: relative;
+  background-color: #F5F5F5;
+  width: 118px;
+  height: 30px;
+  border: 2px solid #DDDDDD;
+}
+div.edit:hover {
+	opacity: 1.0;
+}
+div.delete:hover {
+	opacity: 1.0;
+}
+div.delete:hover:before {
+  content: 'Delete';
+  position: absolute;
+  color: #000000;
+  font-size: 12px;
+  right: 22px;
+  top: -4px;
+  font-weight:bold;
+}
+div.edit:hover:before {
+  content: 'Edit';
+  position: absolute;
+  color: #000000;
+  font-size: 12px;
+  left: 22px;
+  top: -4px;
+  font-weight:bold;
+}
+.delete:hover + .edit {
+  right: 60px;
+}

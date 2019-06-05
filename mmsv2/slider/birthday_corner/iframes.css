@@ -1,0 +1,33 @@
+#iframe_wrapper{
+    position: absolute;
+    top: 40%;
+    width: 20%;
+    height: 20%;
+    margin-left: 200px;
+}
+#bday{
+    position: absolute;
+    bottom: 2%;
+    height: 40%;
+    right: 5%;
+    font-family: Hobo Std;
+    font-size: 1.5em;
+}
+#bday2{
+    font-size: 15px;
+}
+#bday3{
+    font-family: Infinite Stroke;
+    color: red;
+}
+#bday4{
+    overflow: auto;
+    height: 300px;
+    width: 100%;
+    max-width: 400px;
+    font-family: Vijaya;
+    border: gray solid;
+    border-width: 1px;
+    font-weight: 900;
+    font-size: 0.6em;
+}

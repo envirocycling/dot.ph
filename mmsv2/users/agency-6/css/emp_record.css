@@ -1,0 +1,37 @@
+table{
+    width: 900px;
+    font-family: 'Calibri';
+}
+td{
+    padding-bottom: 10px;
+}
+.h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#logo{
+    width: 75%;
+}
+.break{
+    text-align: center;
+    background-color: #278afa;
+    color: white;
+}
+.val{
+    text-decoration: underline;
+}
+.td_1{
+    width: 18%;
+}
+.history{
+        border-bottom: groove;
+        border-left: groove;
+        border-right: groove;
+        border-width: 1px;
+        text-align: center;
+}

@@ -1,0 +1,38 @@
+
+input{
+    text-transform: capitalize;
+}
+.textarea{
+    width: 100%;
+    overflow:hidden;
+    height: 25px;
+    resize: none;
+}
+.header1{
+    text-align: center;
+}
+#header1{
+    font-size: 1.5em;
+}
+#header2{
+    margin-left: 30px;
+}
+.required{
+    color: red;
+}
+.label_info{
+    margin-left: 50px;
+    margin-top: 0px;
+}
+.label_field{
+    margin-top: 5px;
+}
+.label_pothers{
+    margin-top: 10px;
+}
+.txt_reason{
+    height: 25px;
+    overflow:hidden;
+    resize: none;
+    width: 400px;
+}

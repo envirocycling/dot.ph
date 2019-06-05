@@ -1,0 +1,309 @@
+#form_container
+{
+    width: 98%;
+    border: groove;
+    font-family: "Times New Roman";
+}
+
+.mytable
+{
+    width: 100%;
+}
+.leave_summary{
+    text-decoration: underline;
+    font-weight: 500;
+}
+#logo
+{
+    vertical-align: middle;
+}
+
+#comp_name
+{
+    width: 50%;
+    vertical-align: middle;
+}
+
+.header_medium
+{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header_large
+{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header_sub
+{
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-left: 60px;
+    margin-top: -35px;
+}
+
+.small_rectangel
+{
+    border: solid;
+    height: 40px;
+    border-width: thin;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.form_label
+{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.mytable2
+{
+    width: 99%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: solid;
+    border-width: thin;
+}
+
+.mytable3
+{
+    width: 99%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#second_table_td1
+{
+    font-size: 20px;
+    width: 70%;
+}
+
+.leave_type
+{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 215px;
+    height: 20px;
+    float: left;
+}
+.leave_type2
+{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 500px;
+    height: 20px;
+    float: left;
+}
+
+
+.leave_type_long
+{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 20px;
+    float: left;
+}
+
+.td
+{
+    border-right: solid;
+    border-width: thin;
+}
+
+#reason
+{
+    font-weight: bold;
+    margin-left: 10px;
+    width: 90%;
+    max-width: 90%;
+    max-height: 100px; 
+}
+
+#textarea
+{
+    margin-left: 80px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+#reliever
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+#reliever_name
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+.signature_reliever
+{
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.tbl3_td1
+{
+    border: solid;
+    border-width: thin;
+    width: 71%;
+}
+
+#action_taken
+{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.supervisor
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    float: left;
+}
+
+.action
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    width: 130px;
+}
+
+.action_name
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+    width: 230px;
+}
+
+.action_name2
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+    width: 230px;
+    font-size: 18px;
+}
+
+.action_name3
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: center;
+    width: 230px;
+    font-size: 18px;
+}
+
+#app_from
+{
+    margin-left: 226px;
+    float: left;
+    font-size: 20px;
+    width: 270px;
+}
+
+.tbl3_td2
+{
+    border: solid;
+    border-width: thin;
+    margin-bottom: 20px;
+}
+
+#hr_not
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hr_label
+{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.hr_input
+{
+    float: right;
+}
+
+.hr_label_val
+{
+    font-size: 20px;
+    width: 98%;
+    margin-top: 10px;
+}
+
+.remarks
+{
+    position: absolute;
+    top: 350px;
+    left: 490px;
+
+}
+
+.approver
+{
+    text-align: center;
+    border-bottom: solid;
+}
+
+#button
+{
+    width: 120px;height:50px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+@media print {
+    #button{
+        display: none;
+    }
+}
+
+.value
+{
+    text-decoration: underline;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.value_small
+{
+    text-decoration: underline;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+#app_from2
+{
+    margin-left: -305px;
+    float: left;
+    font-size: 20px;
+    width: 270px;
+    margin-top: 5px;
+}
